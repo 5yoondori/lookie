@@ -1,0 +1,48 @@
+n = int(input())
+x=0
+y=0
+k=0
+if n%5==0:
+    k = n//5
+    x = 0
+    y = k - x
+    if(y<0):
+        print (-1)
+    else:
+        print(k)
+        
+elif (n+2)%5==0:
+    k = (n+2)//5
+    x = 1
+    y = k - x
+    if(y<0):
+        print (-1)
+    else:
+        print(k)
+        
+elif (n+4)%5==0:
+    k = (n+4)//5
+    x = 2
+    y = k - x
+    if(y<0):
+        print (-1)
+    else:
+        print(k)
+        
+elif (n+6)%5==0:
+    k = (n+6)//5
+    x = 3
+    y = k - x
+    if(y<0):
+        print (-1)
+    else:
+        print(k)
+        
+elif (n+8)%5==0:
+    k = (n+8)//5
+    x = 4
+    y = k - x
+    if(y<0):
+        print (-1)
+    else:
+        print(k)
